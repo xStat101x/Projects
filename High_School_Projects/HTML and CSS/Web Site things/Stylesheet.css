@@ -1,0 +1,151 @@
+/*This makes the background a single image that won't move*/
+body{
+    background-image: url('VALORANT_1.png'); 
+    background-repeat: no-repeat; 
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: black;
+}
+/*This makes header look the way it needs to look*/
+h1{
+    color: rgb(255,69,84);
+    font-size: 75px;
+    text-align: center; 
+}
+
+.sidebar{
+    width: 200px;
+    height: 800px;
+    position: fixed;
+    top: 0px;
+    background-color: rgb(255,69,84);
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+.sidebar td, th{
+    border: 1px solid white;
+    height: 150px;
+    width: 500px;
+    text-align: center;
+}
+
+.sidebar a:link, :visited, :active{
+    color: white;
+}
+
+.sidebar a:hover{
+    color: white;
+    font-size: larger;
+
+}
+
+.form{ 
+    color: white;
+    position: fixed;
+    right: 50px;
+
+}
+
+p{
+    color: white;
+    position: fixed;
+    bottom: 200px;
+    left: 250px;
+    inline-size: 600px;
+    overflow-wrap: break-word;
+    text-align: center;
+    
+}
+
+.Raze th, td{
+    color: white;
+    border: 1px solid white;
+    height: 50px;
+    width: 300px;
+    text-align: center;
+
+
+}
+
+.Raze table{
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+}
+
+h3{    
+    position: fixed;
+    top: -50px;
+    right: 680px;
+    color: white;
+    font-size: 65px;
+}
+
+.Agent{
+    background-image: none;
+    background-color: rgb(12, 23, 33);
+}
+.image{
+    position: fixed;
+    top: 50px;
+    left: 370px;
+    
+}
+
+h4{
+    position: fixed;
+    bottom: 280px;
+    left: 475px;
+    color: white;
+    font-size: 30px;
+}
+Caption{
+    color: white;
+    font-size: x-large;
+}
+
+.Jett th, td{
+    color: white;
+    border: 1px solid white;
+    height: 50px;
+    width: 300px;
+    text-align: center;
+
+
+}
+
+.Jett table{
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+}
+.Yoru th, td{
+    color: white;
+    border: 1px solid white;
+    height: 50px;
+    width: 300px;
+    text-align: center;
+
+
+}
+
+.Yoru table{
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+}
+
+.Yoru2{
+    position: fixed;
+    bottom: 100px;
+}
+
+ul{
+    color: white;
+    position: fixed;
+    right: 200px;
+    bottom: 250px;
+}

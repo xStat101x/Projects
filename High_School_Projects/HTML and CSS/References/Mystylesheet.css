@@ -1,0 +1,35 @@
+.h2 {color: red;}
+.h1 {text-align:center;}
+.headline {
+    text-decoration: underline;
+    font-weight:bold;
+}
+.li {font-family:'Courier New', Courier, monospace}
+
+.bold {
+    font-weight:bold;
+}
+.italics {
+    font-style:italic;
+}
+.both{
+    font-style:italic;
+    font-weight:bold;
+}
+.td{
+    border-style:inset;
+    border-color:rgb(255, 0, 0);
+    border-width: 2px;
+    border-collapse: separate;
+}
+.table{
+    border-style: inset;
+    border-color: blue;
+    border-width: 4px;
+}
+.table img{
+    height:50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
